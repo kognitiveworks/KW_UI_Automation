@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.4 on win32)" generated="2025-02-18T12:15:45.422790" rpa="false" schemaversion="5">
+<suite id="s1" name="KW WorkbenchRunner" source="C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\KW_TestRunner\KW_WorkbenchRunner.robot">
+<test id="s1-t1" name="KW_AWB01" line="11">
+<kw name="KWATC_WB01">
+<msg time="2025-02-18T12:15:46.002409" level="FAIL">Variable '${name}' not found. Did you mean:
+    ${TEST_NAME}</msg>
+<arg>KWATC_WB01</arg>
+<arg>${name}</arg>
+<arg>${pass}</arg>
+<arg>${environment}</arg>
+<arg>${Workspacenameone}</arg>
+<arg>${Workspacenametwo}</arg>
+<arg>${DescriptionEdit}</arg>
+<arg>${aliasEdit}</arg>
+<arg>${SchemaEdit}</arg>
+<arg>${Documentname}</arg>
+<arg>${WorkspacenameInvalid}</arg>
+<arg>${EmailLink}</arg>
+<arg>${HandDocument}</arg>
+<arg>${WorkspacenameLongName}</arg>
+<arg>${DocumentnameInvalid}</arg>
+<arg>${DescriptionInvalid}</arg>
+<arg>${AliasInvalid}</arg>
+<arg>${SchemaInvalid}</arg>
+<arg>${SchemaMaximumSize}</arg>
+<status status="FAIL" start="2025-02-18T12:15:46.002409" elapsed="0.000000">Variable '${name}' not found. Did you mean:
+    ${TEST_NAME}</status>
+</kw>
+<status status="FAIL" start="2025-02-18T12:15:46.002409" elapsed="0.000000">Variable '${name}' not found. Did you mean:
+    ${TEST_NAME}</status>
+</test>
+<status status="FAIL" start="2025-02-18T12:15:45.429329" elapsed="0.573080"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="KW WorkbenchRunner" id="s1" pass="0" fail="1" skip="0">KW WorkbenchRunner</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-02-18T12:15:45.968566" level="ERROR">Error in file 'C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\KW_TestRunner\KW_WorkbenchRunner.robot' on line 3: Importing library 'DataDriver' failed: ModuleNotFoundError: No module named 'DataDriver'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv\Scripts\robot.exe
+  C:\Program Files\Python312\python312.zip
+  C:\Program Files\Python312\DLLs
+  C:\Program Files\Python312\Lib
+  C:\Program Files\Python312
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv\Lib\site-packages</msg>
+<msg time="2025-02-18T12:15:45.984401" level="ERROR">Error in file 'C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\KW_Resource\KW_WorkbenchResources.robot' on line 4: Importing library 'DataDriver' failed: ModuleNotFoundError: No module named 'DataDriver'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv\Scripts\robot.exe
+  C:\Program Files\Python312\python312.zip
+  C:\Program Files\Python312\DLLs
+  C:\Program Files\Python312\Lib
+  C:\Program Files\Python312
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv\Lib\site-packages</msg>
+<msg time="2025-02-18T12:15:45.984401" level="ERROR">Error in file 'C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\KW_Data\KW_WorkbenchData.robot' on line 3: Importing library 'DataDriver' failed: ModuleNotFoundError: No module named 'DataDriver'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv\Scripts\robot.exe
+  C:\Program Files\Python312\python312.zip
+  C:\Program Files\Python312\DLLs
+  C:\Program Files\Python312\Lib
+  C:\Program Files\Python312
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv\Lib\site-packages</msg>
+<msg time="2025-02-18T12:15:46.002409" level="ERROR">Error in file 'C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\KW_Resource\KW_CommonResource.robot' on line 3: Importing library 'DataDriver' failed: ModuleNotFoundError: No module named 'DataDriver'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv\Scripts\robot.exe
+  C:\Program Files\Python312\python312.zip
+  C:\Program Files\Python312\DLLs
+  C:\Program Files\Python312\Lib
+  C:\Program Files\Python312
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv\Lib\site-packages</msg>
+<msg time="2025-02-18T12:15:46.002409" level="ERROR">Error in file 'C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\KW_Data\KW_CredentialsData.robot' on line 3: Importing library 'DataDriver' failed: ModuleNotFoundError: No module named 'DataDriver'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv\Scripts\robot.exe
+  C:\Program Files\Python312\python312.zip
+  C:\Program Files\Python312\DLLs
+  C:\Program Files\Python312\Lib
+  C:\Program Files\Python312
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv
+  C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\.venv\Lib\site-packages</msg>
+</errors>
+</robot>

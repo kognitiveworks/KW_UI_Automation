@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2025-02-20T10:32:05.582110" rpa="false" schemaversion="5">
+<suite id="s1" name="KW WorkbenchRunner" source="C:\Users\BVeeraragavan\PycharmProjects\KognitiveWorksAutomation\KW_TestRunner\KW_WorkbenchRunner.robot">
+<test id="s1-t1" name="KW_AWB01" line="11">
+<kw name="KWATC_WB01">
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.756835" level="INFO">${name} = veeraragavan.b@acxhange.com</msg>
+<arg>${name}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.756835" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.756835" level="INFO">${pass} = admin@123</msg>
+<arg>${pass}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.756835" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.756835" level="INFO">${environment} = test</msg>
+<arg>${environment}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.756835" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.756835" level="INFO">${Workspacenameone} = KWtest81</msg>
+<arg>${Workspacenameone}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.756835" elapsed="0.016094"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.772929" level="INFO">${Workspacenametwo} = KWtest82</msg>
+<arg>${Workspacenametwo}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.772929" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${DescriptionEdit} = Analyze the document, if the bold, uppercase and underlined text which is present in the middle of the first page of the document matches with any one of the following key words given below then class...</msg>
+<arg>${DescriptionEdit}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.772929" elapsed="0.001023"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${aliasEdit} = Pleadings</msg>
+<arg>${aliasEdit}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.773952" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${SchemaEdit} = {
+  "properties": {
+    "Document_Title": {
+      "description": "Extract and display the document title as is. Characters are usually bold, uppercase and underlined.",
+      "type": "string"
+    },
+ ...</msg>
+<arg>${SchemaEdit}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.773952" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${Documentname} = Pleadingss</msg>
+<arg>${Documentname}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.773952" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${WorkspacenameInvalid} = Test#124</msg>
+<arg>${WorkspacenameInvalid}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.773952" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${EmailLink} = Yes</msg>
+<arg>${EmailLink}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.773952" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${HandDocument} = No</msg>
+<arg>${HandDocument}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.773952" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${WorkspacenameLongName} = Acxhangeindiapvtltdkognitiveworks</msg>
+<arg>${WorkspacenameLongName}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.773952" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${DocumentnameInvalid} = Test@12#</msg>
+<arg>${DocumentnameInvalid}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.773952" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${DescriptionInvalid} = Des@#12</msg>
+<arg>${DescriptionInvalid}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.773952" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.773952" level="INFO">${AliasInvalid} = AL@1q21</msg>
+<arg>${AliasInvalid}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.773952" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.777976" level="INFO">${SchemaInvalid} = SC@12#</msg>
+<arg>${SchemaInvalid}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.777976" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:07.777976" level="INFO">${SchemaMaximumSize} = {
+  "properties": {
+    "Document_Title": {
+      "description": "Extract and display the document title as is. Characters are usually bold, uppercase and underlined.",
+      "type": "string"
+    },
+ ...</msg>
+<arg>${SchemaMaximumSize}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.777976" elapsed="0.000000"/>
+</kw>
+<kw name="KW_LaunchApplication" owner="KW_CommonResource">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:07.777976" level="INFO">Opening browser 'chrome' to base url 'https://test.kognitiveworks.com/'.</msg>
+<arg>https://${environment}.kognitiveworks.com/</arg>
+<arg>chrome</arg>
+<arg>options=add_argument("--incognito")</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-02-20T10:32:07.777976" elapsed="5.620284"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-02-20T10:32:13.398260" elapsed="0.045553"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:32:07.777976" elapsed="5.665837"/>
+</kw>
+<kw name="KW_Login" owner="KW_CommonResource">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:13.444823" elapsed="6.533662"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:19.979535" level="INFO">Typing text 'veeraragavan.b@acxhange.com' into text field '//input[@id='username']'.</msg>
+<arg>//input[@id='username']</arg>
+<arg>${name}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:19.978485" elapsed="0.293957"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-20T10:32:25.273059" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-20T10:32:20.272442" elapsed="5.000617"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:25.273059" level="INFO">Typing text 'admin@123' into text field '//input[@formcontrolname='password']'.</msg>
+<arg>//input[@formcontrolname='password']</arg>
+<arg>${pass}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:25.273059" elapsed="0.222436"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>password given</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-02-20T10:32:25.495495" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-20T10:32:30.496297" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-20T10:32:25.495495" elapsed="5.000802"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:30.496297" level="INFO">Clicking element '//div[text()= 'Login']'.</msg>
+<arg>//div[text()= 'Login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:30.496297" elapsed="0.158690"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//p[contains(text(),"Login successfull !!")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:30.654987" elapsed="2.468005"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" owner="SeleniumLibrary">
+<arg>//p[contains(text(),"Login successfull !!")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:33.122992" elapsed="1.953581"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:32:13.443813" elapsed="21.632760"/>
+</kw>
+<kw name="KW_ClickWorkbenchMenuSelection" owner="KW_WorkbenchResources">
+<kw name="Wait Until Element Is Not Visible" owner="SeleniumLibrary">
+<arg>//p[contains(text(),"Login successfull !!")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:35.076573" elapsed="0.017001"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//div[contains(text(),"Workbench")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:35.094087" elapsed="0.028188"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:35.122275" level="INFO">Clicking element '//div[contains(text(),"Workbench")]'.</msg>
+<arg>//div[contains(text(),"Workbench")]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:35.122275" elapsed="0.154933"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:32:35.076573" elapsed="0.200635"/>
+</kw>
+<kw name="KW_createNewWorkspaceOne" owner="KW_WorkbenchResources">
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:32:35.277208" level="INFO">${Workspacenameone} = KWtest81</msg>
+<arg>${Workspacenameone}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2025-02-20T10:32:35.277208" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//button[@class='kw-primary-button']</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:35.277208" elapsed="1.887928"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:37.165136" level="INFO">Clicking element '//button[@class='kw-primary-button']'.</msg>
+<arg>//button[@class='kw-primary-button']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:37.165136" elapsed="0.159392"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//input[@type='text']</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:37.327308" elapsed="0.254916"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:37.582224" level="INFO">Typing text 'KWtest81' into text field '//input[@type='text']'.</msg>
+<arg>//input[@type='text']</arg>
+<arg>${Workspacenameone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:37.582224" elapsed="0.189628"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:37.771852" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[1]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:37.771852" elapsed="0.164848"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:37.937883" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[2]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:37.937883" elapsed="0.136487"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:38.074370" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[1]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:38.074370" elapsed="0.131499"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:38.214100" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[2]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:38.205869" elapsed="0.151488"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:38.357357" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[1]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:38.357357" elapsed="0.142938"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:38.500295" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[2]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:38.500295" elapsed="0.123617"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:38.623912" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[1]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:38.623912" elapsed="0.147826"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:38.771738" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[2]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:38.771738" elapsed="0.148998"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:38.920736" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[1]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:38.920736" elapsed="0.152786"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:39.073522" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[2]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:39.073522" elapsed="0.113718"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:39.188300" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[1]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:39.188300" elapsed="0.134000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:39.322300" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[2]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:39.322300" elapsed="0.136317"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-20T10:32:42.458953" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-20T10:32:39.458617" elapsed="3.000336"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:42.458953" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[1]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:42.458953" elapsed="0.114659"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:42.573612" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[2]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:42.573612" elapsed="0.151110"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//span[contains(text(),"Submit")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:42.724722" elapsed="0.048555"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:42.773277" level="INFO">Clicking element '//span[contains(text(),"Submit")]'.</msg>
+<arg>//span[contains(text(),"Submit")]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:42.773277" elapsed="0.146743"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//th[contains(text(),"supports hyperlink")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:42.920639" elapsed="2.582805"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:32:35.277208" elapsed="10.226236"/>
+</kw>
+<kw name="KW_Logout" owner="KW_CommonResource">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//div[@id="profile-pic"]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:45.503444" elapsed="0.047173"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:45.554189" level="INFO">Clicking element '//div[@id="profile-pic"]'.</msg>
+<arg>//div[@id="profile-pic"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:45.550617" elapsed="0.174512"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:45.725129" level="INFO">Clicking element '//button[contains(text(),"Logout")]'.</msg>
+<arg>//button[contains(text(),"Logout")]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:45.725129" elapsed="0.155702"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//h2[contains(text(),"Login")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:45.880831" elapsed="0.039744"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:32:45.503444" elapsed="0.417131"/>
+</kw>
+<kw name="KW_Login" owner="KW_CommonResource">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//input[@id='username']</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:45.920575" elapsed="0.043682"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:45.964257" level="INFO">Typing text 'veeraragavan.b@acxhange.com' into text field '//input[@id='username']'.</msg>
+<arg>//input[@id='username']</arg>
+<arg>${name}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:45.964257" elapsed="0.293697"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-20T10:32:51.260945" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-20T10:32:46.257954" elapsed="5.002991"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:51.260945" level="INFO">Typing text 'admin@123' into text field '//input[@formcontrolname='password']'.</msg>
+<arg>//input[@formcontrolname='password']</arg>
+<arg>${pass}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:51.260945" elapsed="0.270834"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>password given</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-02-20T10:32:51.531779" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-20T10:32:56.534631" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-20T10:32:51.533816" elapsed="5.000815"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:32:56.534631" level="INFO">Clicking element '//div[text()= 'Login']'.</msg>
+<arg>//div[text()= 'Login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:32:56.534631" elapsed="0.147610"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//p[contains(text(),"Login successfull !!")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:56.682241" elapsed="2.397299"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" owner="SeleniumLibrary">
+<arg>//p[contains(text(),"Login successfull !!")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" start="2025-02-20T10:32:59.079540" elapsed="1.925504"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:32:45.920575" elapsed="15.084469"/>
+</kw>
+<kw name="KW_ClickWorkbenchMenuSelection" owner="KW_WorkbenchResources">
+<kw name="Wait Until Element Is Not Visible" owner="SeleniumLibrary">
+<arg>//p[contains(text(),"Login successfull !!")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:01.005044" elapsed="0.021748"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//div[contains(text(),"Workbench")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:01.026792" elapsed="0.024183"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:01.050975" level="INFO">Clicking element '//div[contains(text(),"Workbench")]'.</msg>
+<arg>//div[contains(text(),"Workbench")]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:01.050975" elapsed="0.144055"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:33:01.005044" elapsed="0.189986"/>
+</kw>
+<kw name="KW_createNewWorkspaceWithOldName" owner="KW_WorkbenchResources">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//button[@class='kw-primary-button']</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:01.195030" elapsed="0.959680"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:02.154710" level="INFO">Clicking element '//button[@class='kw-primary-button']'.</msg>
+<arg>//button[@class='kw-primary-button']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:02.154710" elapsed="0.177865"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//input[@type='text']</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:02.332886" elapsed="0.029325"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:02.362211" level="INFO">Typing text 'KWtest81' into text field '//input[@type='text']'.</msg>
+<arg>//input[@type='text']</arg>
+<arg>${Workspacenameone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:02.362211" elapsed="0.209675"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//p[contains(text(),"*Workspace name already exist")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:02.571886" elapsed="0.048074"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:02.654987" level="INFO">${errortext} = *Workspace name already exist</msg>
+<var>${errortext}</var>
+<arg>//p[contains(text(),"*Workspace name already exist")]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:02.621730" elapsed="0.033257"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:02.664259" level="INFO">Typing text 'Test#124' into text field '//input[@type='text']'.</msg>
+<arg>//input[@type='text']</arg>
+<arg>${WorkspacenameInvalid}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:02.664259" elapsed="0.224049"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:02.888308" level="INFO">Typing text 'Acxhangeindiapvtltdkognitiveworks' into text field '//input[@type='text']'.</msg>
+<arg>//input[@type='text']</arg>
+<arg>${WorkspacenameLongName}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:02.888308" elapsed="0.303849"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>//input[@type='text']</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:03.192157" elapsed="0.056187"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-20T10:33:06.248841" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-20T10:33:03.248344" elapsed="3.000497"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:06.248841" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[1]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:06.248841" elapsed="0.114401"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:06.364381" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[2]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:06.364381" elapsed="0.140622"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-20T10:33:16.505656" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-20T10:33:06.505003" elapsed="10.000653"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:33:01.195030" elapsed="15.310626"/>
+</kw>
+<kw name="KW_ClickWorkbenchMenuSelection" owner="KW_WorkbenchResources">
+<kw name="Wait Until Element Is Not Visible" owner="SeleniumLibrary">
+<arg>//p[contains(text(),"Login successfull !!")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:16.505656" elapsed="0.022142"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//div[contains(text(),"Workbench")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:16.527798" elapsed="0.045700"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:16.573498" level="INFO">Clicking element '//div[contains(text(),"Workbench")]'.</msg>
+<arg>//div[contains(text(),"Workbench")]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:16.573498" elapsed="0.216384"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:33:16.505656" elapsed="0.284226"/>
+</kw>
+<kw name="KW_createNewWorkspaceTwo" owner="KW_WorkbenchResources">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//button[@class='kw-primary-button']</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:16.789882" elapsed="0.056363"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:16.846245" level="INFO">Clicking element '//button[@class='kw-primary-button']'.</msg>
+<arg>//button[@class='kw-primary-button']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:16.846245" elapsed="0.212340"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//input[@type='text']</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:17.058585" elapsed="0.050450"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:17.109035" level="INFO">Typing text 'KWtest82' into text field '//input[@type='text']'.</msg>
+<arg>//input[@type='text']</arg>
+<arg>${Workspacenametwo}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:17.109035" elapsed="0.261581"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:33:17.370616" level="INFO">${HandDocuMentref} = No</msg>
+<var>${HandDocuMentref}</var>
+<arg>${HandDocument}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-02-20T10:33:17.370616" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${HandDocument}&quot; == &quot;Yes&quot;">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>(//input[@id='flexSwitchCheckDefault'])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:17.370616" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2025-02-20T10:33:17.370616" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2025-02-20T10:33:17.370616" elapsed="0.000000"/>
+</if>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-02-20T10:33:17.370616" level="INFO">${EmailLinkref} = Yes</msg>
+<var>${EmailLinkref}</var>
+<arg>${EmailLink}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-02-20T10:33:17.370616" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${EmailLink}&quot; == &quot;Yes&quot;">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:17.370616" level="INFO">Clicking element '(//input[@id='flexSwitchCheckDefault'])[2]'.</msg>
+<arg>(//input[@id='flexSwitchCheckDefault'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:17.370616" elapsed="0.159017"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:33:17.370616" elapsed="0.159017"/>
+</branch>
+<status status="PASS" start="2025-02-20T10:33:17.370616" elapsed="0.159017"/>
+</if>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-20T10:33:22.530506" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-20T10:33:17.529633" elapsed="5.000873"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:22.530506" level="INFO">Clicking element '//button[@type='button']'.</msg>
+<arg>//button[@type='button']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:22.530506" elapsed="0.096539"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//th[contains(text(),"supports hyperlink")]</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:22.627743" elapsed="1.657819"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:33:16.789882" elapsed="7.495680"/>
+</kw>
+<kw name="KW_selectWorkspaceName" owner="KW_WorkbenchResources">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//th[contains(text(),"workspace")]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:24.285562" elapsed="0.063328"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>//span[contains(text(),"${Workspacenametwo}")]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2025-02-20T10:33:24.348890" elapsed="0.325673"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:24.674563" level="INFO">Clicking element '//span[contains(text(),"KWtest82")]'.</msg>
+<arg>//span[contains(text(),"${Workspacenametwo}")]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-20T10:33:24.674563" elapsed="0.153315"/>
+</kw>
+<status status="PASS" start="2025-02-20T10:33:24.285562" elapsed="0.542316"/>
+</kw>
+<kw name="KW_createNewDocument" owner="KW_WorkbenchResources">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//button[@class='kw-primary-button']</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-20T10:33:24.827878" elapsed="0.036669"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-20T10:33:24.864547" level="INFO">Clicking element '//button[@class='kw-primary-button']'.</msg>
+<msg time="2025-02-20T10:33:25.080765" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-80.png"&gt;&lt;img src="selenium-screenshot-80.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-02-20T10:33:25.086460" level="FAIL">StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.197); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FACB02F5+28725]
+	(No symbol) [0x00007FF6FAC12AE0]
+	(No symbol) [0x00007FF6FAAA510A]
+	(No symbol) [0x00007FF6FAAABD70]
+	(No symbol) [0x00007FF6FAAAEABC]
+	(No symbol) [0x00007FF6FAAAEB8F]
+	(No symbol) [0x00007FF6FAAFB4A4]
+	(No symbol) [0x00007FF6FAAFA499]
+	(No symbol) [0x00007FF6FAAEC6B4]
+	(No symbol) [0x00007FF6FAB1FFAA]
+	(No symbol) [0x00007FF6FAAEBF86]
+	(No symbol) [0x00007FF6FAB201C0]
+	(No symbol) [0x00007FF6FAB40181]
+	(No symbol) [0x00007FF6FAB1FD53]
+	(No symbol) [0x00007FF6FAAEA0E3]
+	(No symbol) [0x00007FF6FAAEB471]
+	GetHandleVerifier [0x00007FF6FAFDF30D+3366989]
+	GetHandleVerifier [0x00007FF6FAFF12F0+3440688]
+	GetHandleVerifier [0x00007FF6FAFE78FD+3401277]
+	GetHandleVerifier [0x00007FF6FAD7AAAB+858091]
+	(No symbol) [0x00007FF6FAC1E74F]
+	(No symbol) [0x00007FF6FAC1A304]
+	(No symbol) [0x00007FF6FAC1A49D]
+	(No symbol) [0x00007FF6FAC08B69]
+	BaseThreadInitThunk [0x00007FFF3EFAE8D7+23]
+	RtlUserThreadStart [0x00007FFF3FF1BF2C+44]
+</msg>
+<arg>//button[@class='kw-primary-button']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2025-02-20T10:33:24.864547" elapsed="0.239392">StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.197); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FACB02F5+28725]
+	(No symbol) [0x00007FF6FAC12AE0]
+	(No symbol) [0x00007FF6FAAA510A]
+	(No symbol) [0x00007FF6FAAABD70]
+	(No symbol) [0x00007FF6FAAAEABC]
+	(No symbol) [0x00007FF6FAAAEB8F]
+	(No symbol) [0x00007FF6FAAFB4A4]
+	(No symbol) [0x00007FF6FAAFA499]
+	(No symbol) [0x00007FF6FAAEC6B4]
+	(No symbol) [0x00007FF6FAB1FFAA]
+	(No symbol) [0x00007FF6FAAEBF86]
+	(No symbol) [0x00007FF6FAB201C0]
+	(No symbol) [0x00007FF6FAB40181]
+	(No symbol) [0x00007FF6FAB1FD53]
+	(No symbol) [0x00007FF6FAAEA0E3]
+	(No symbol) [0x00007FF6FAAEB471]
+	GetHandleVerifier [0x00007FF6FAFDF30D+3366989]
+	GetHandleVerifier [0x00007FF6FAFF12F0+3440688]
+	GetHandleVerifier [0x00007FF6FAFE78FD+3401277]
+	GetHandleVerifier [0x00007FF6FAD7AAAB+858091]
+	(No symbol) [0x00007FF6FAC1E74F]
+	(No symbol) [0x00007FF6FAC1A304]
+	(No symbol) [0x00007FF6FAC1A49D]
+	(No symbol) [0x00007FF6FAC08B69]
+	BaseThreadInitThunk [0x00007FFF3EFAE8D7+23]
+	RtlUserThreadStart [0x00007FFF3FF1BF2C+44]
+</status>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//input[@placeholder='Enter name']</arg>
+<arg>30s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.103939" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>//input[@placeholder='Enter name']</arg>
+<arg>${Documentname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.103939" elapsed="0.002141"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>//textarea[@type='text']</arg>
+<arg>${DescriptionEdit}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>//input[@name='documentAlias']</arg>
+<arg>${aliasEdit}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.000000"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>//div[@class='ace_content']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>//textarea[@class='ace_text-input']</arg>
+<arg>${SchemaEdit}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.000000"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>//button[@class='kw-success-button']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@class='kw-success-button']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//th[contains(text(),"Document Name")]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-02-20T10:33:24.827878" elapsed="0.278202">StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.197); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FACB02F5+28725]
+	(No symbol) [0x00007FF6FAC12AE0]
+	(No symbol) [0x00007FF6FAAA510A]
+	(No symbol) [0x00007FF6FAAABD70]
+	(No symbol) [0x00007FF6FAAAEABC]
+	(No symbol) [0x00007FF6FAAAEB8F]
+	(No symbol) [0x00007FF6FAAFB4A4]
+	(No symbol) [0x00007FF6FAAFA499]
+	(No symbol) [0x00007FF6FAAEC6B4]
+	(No symbol) [0x00007FF6FAB1FFAA]
+	(No symbol) [0x00007FF6FAAEBF86]
+	(No symbol) [0x00007FF6FAB201C0]
+	(No symbol) [0x00007FF6FAB40181]
+	(No symbol) [0x00007FF6FAB1FD53]
+	(No symbol) [0x00007FF6FAAEA0E3]
+	(No symbol) [0x00007FF6FAAEB471]
+	GetHandleVerifier [0x00007FF6FAFDF30D+3366989]
+	GetHandleVerifier [0x00007FF6FAFF12F0+3440688]
+	GetHandleVerifier [0x00007FF6FAFE78FD+3401277]
+	GetHandleVerifier [0x00007FF6FAD7AAAB+858091]
+	(No symbol) [0x00007FF6FAC1E74F]
+	(No symbol) [0x00007FF6FAC1A304]
+	(No symbol) [0x00007FF6FAC1A49D]
+	(No symbol) [0x00007FF6FAC08B69]
+	BaseThreadInitThunk [0x00007FFF3EFAE8D7+23]
+	RtlUserThreadStart [0x00007FFF3FF1BF2C+44]
+</status>
+</kw>
+<kw name="KW_DeployDocument" owner="KW_WorkbenchResources">
+<status status="NOT RUN" start="2025-02-20T10:33:25.106080" elapsed="0.006638"/>
+</kw>
+<kw name="KW_ClickOnDocumentView" owner="KW_WorkbenchResources">
+<status status="NOT RUN" start="2025-02-20T10:33:25.112718" elapsed="0.000000"/>
+</kw>
+<kw name="KW_EditDocumentUpdate" owner="KW_WorkbenchResources">
+<status status="NOT RUN" start="2025-02-20T10:33:25.113835" elapsed="0.000000"/>
+</kw>
+<kw name="KW_DeployDocument" owner="KW_WorkbenchResources">
+<status status="NOT RUN" start="2025-02-20T10:33:25.113835" elapsed="0.000000"/>
+</kw>
+<kw name="KW_createNewDocumentInvalid" owner="KW_WorkbenchResources">
+<status status="NOT RUN" start="2025-02-20T10:33:25.113835" elapsed="0.000000"/>
+</kw>
+<kw name="KW_Logout" owner="KW_CommonResource">
+<status status="NOT RUN" start="2025-02-20T10:33:25.113835" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2025-02-20T10:33:25.113835" elapsed="0.000000"/>
+</kw>
+<kw name="KW_LaunchDocumentLinkDirectly" owner="KW_WorkbenchResources">
+<status status="NOT RUN" start="2025-02-20T10:33:25.113835" elapsed="0.000000"/>
+</kw>
+<arg>name=veeraragavan.b@acxhange.com</arg>
+<arg>pass=admin@123</arg>
+<arg>environment=test</arg>
+<arg>Workspacenameone=KWtest81</arg>
+<arg>Workspacenametwo=KWtest82</arg>
+<arg>DescriptionEdit=Analyze the document, if the bold, uppercase and underlined text which is present in the middle of the first page of the document matches with any one of the following key words given below then classify it into 'Pleadings'.
+ 
+1.Motion to Amend
+2.Motion to Compel
+3.Motion to Strike
+4.Motion for Protective Order
+5.Motion to Dismiss
+6.Motion for Sanctions
+7.Motion to Enforce
+8.Notice of Compliance
+9.Motion of Continuance
+10.Notice of Readiness of Trials
+11.Notice of Unavailability
+12.Exhibit List
+13.Witness List
+14.Expert Witness List
+15.Motion in Limine
+16.Verdict Form
+17.Jury Instructions
+18.Motion to Abid
+19.Fact Witness List
+20.Motion for Entry of Final Judgment
+21.Motion for Summary Judgment
+22.Motion for Summary Disposition
+23.Motion for Judgment on Pleadings
+24.Motion for 57.105
+25.Motion for Extension of Time on Plaintiff's Fact Sheet (PFS)
+26.Motion for Extension of Time to Respond to Discovery
+27.Motion to Compel Deposition
+28.Notice of Withdrawal
+29.Motion for Relief from Technical Admissions
+30.Motion to Appear Virtually
+31.Motion to Transfer Venue
+32.Disclosure of Fee Expert
+33.Stipulation of Entitlement to Attorney's Fees and Costs
+34.Joint Motion to Excuse Client's Appearance
+35.Joint Stipulation Appointing Mediator
+36.Motion to Vacate Default
+37.Notice of Appel
+38.Appellant's Initial Brief
+39.Reply Brief
+40.Appellee's Answer Brief
+41.Notice of Filing
+42.Record on Appeal
+43.Notice of Appearance as Co-Counsel
+44.Acknowledgement of New Case (Appeals)
+45.Joint Stipulation to Conduct Mediation
+46.Notice of Hearing
+   Do not classify any letter which belongs to correspondence into 'Pleadings'.
+ 
+    Any Notice or Motion should be classified under 'Pleadings' except any document that has 'Motion to Depositions ' in it .</arg>
+<arg>aliasEdit=Pleadings</arg>
+<arg>SchemaEdit={
+  "properties": {
+    "Document_Title": {
+      "description": "Extract and display the document title as is. Characters are usually bold, uppercase and underlined.",
+      "type": "string"
+    },
+    "Plaintiff": {
+      "description": "Name of the Plaintiff and the address of the plaintiff which is written above the plaintiff in the document",
+      "type": "string"
+    },
+    "Defendant": {
+      "description": "Name of the Defendant and the address of the defendant which is written above the defendant in the document",
+      "type": "string"
+    },
+    "Case_Number": {
+      "description": "The case number is the unique case number which contains both numbers and alphabets and special characters like '-','(',')' and would be written in top right corner of the document, this may also assigned in name of 'Case Number' or simply 'Case#'",
+      "type": "string"
+    },
+    "Filing_Date": {
+      "description": " Filing provides metadata about a legal document submitted to a court's electronic filing system. It represents the date the document was filed in the format 'MM/DD/YYYY', this may also assigned in name of 'Filing' or 'Filing Time' or 'E-Filed'",
+      "type": "string"
+    },
+    "Filing_Number": {
+      "description": "This is a unique identifier assigned to the specific filing. It helps in tracking and referencing this particular document within the court’s electronic filing system. this may also assigned in name of 'Filing#' and this is located either on top or bottom of the document",
+      "type": "string"
+    },
+    "Filing_Time": {
+      "description": " The time when the document is filed is stated as filing time. This os located near filing and filing date either in top or bottom of the document."
+    },
+    "Letter_Summary": {
+      "description": "Understand the document and provide summary of the document content in 200 words or less. Do not respond with document content.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "Document_Title",
+    "Plaintiff",
+    "Defendant",
+    "Case_Number",
+    "Filing_Date",
+    "Filing_Number",
+    "Filing_Time"
+  ]
+}</arg>
+<arg>Documentname=Pleadingss</arg>
+<arg>WorkspacenameInvalid=Test#124</arg>
+<arg>EmailLink=Yes</arg>
+<arg>HandDocument=No</arg>
+<arg>WorkspacenameLongName=Acxhangeindiapvtltdkognitiveworks</arg>
+<arg>DocumentnameInvalid=Test@12#</arg>
+<arg>DescriptionInvalid=Des@#12</arg>
+<arg>AliasInvalid=AL@1q21</arg>
+<arg>SchemaInvalid=SC@12#</arg>
+<arg>SchemaMaximumSize={
+  "properties": {
+    "Document_Title": {
+      "description": "Extract and display the document title as is. Characters are usually bold, uppercase and underlined.",
+      "type": "string"
+    },
+    "Plaintiff": {
+      "description": "Name of the Plaintiff and the address of the plaintiff which is written above the plaintiff in the document",
+      "type": "string"
+    },
+    "Defendant": {
+      "description": "Name of the Defendant and the address of the defendant which is written above the defendant in the document",
+      "type": "string"
+    },
+    "Case_Number": {
+      "description": "The case number is the unique case number which contains both numbers and alphabets and special characters like '-','(',')' and would be written in top right corner of the document, this may also assigned in name of 'Case Number' or simply 'Case#'",
+      "type": "string"
+    },
+    "Filing_Date": {
+      "description": " Filing provides metadata about a legal document submitted to a court's electronic filing system. It represents the date the document was filed in the format 'MM/DD/YYYY', this may also assigned in name of 'Filing' or 'Filing Time' or 'E-Filed'",
+      "type": "string"
+    },
+    "Filing_Number": {
+      "description": "This is a unique identifier assigned to the specific filing. It helps in tracking and referencing this particular document within the court’s electronic filing system. this may also assigned in name of 'Filing#' and this is located either on top or bottom of the document",
+      "type": "string"
+    },
+    "Filing_Time": {
+      "description": " The time when the document is filed is stated as filing time. This os located near filing and filing date either in top or bottom of the document."
+    },
+    "Letter_Summary": {
+      "description": "Understand the document and provide summary of the document content in 200 words or less. Do not respond with document content.",
+      "type": "string"
+    }
+  },
+     "Document_Title": {
+      "description": "Extract and display the document title as is. Characters are usually bold, uppercase and underlined.",
+      "type": "string"
+    },
+    "Plaintiff": {
+      "description": "Name of the Plaintiff and the address of the plaintiff which is written above the plaintiff in the document",
+      "type": "string"
+    },
+    "Defendant": {
+      "description": "Name of the Defendant and the address of the defendant which is written above the defendant in the document",
+      "type": "string"
+    },
+    "Case_Number": {
+      "description": "The case number is the unique case number which contains both numbers and alphabets and special characters like '-','(',')' and would be written in top right corner of the document, this may also assigned in name of 'Case Number' or simply 'Case#'",
+      "type": "string"
+    },
+    "Filing_Date": {
+      "description": " Filing provides metadata about a legal document submitted to a court's electronic filing system. It represents the date the document was filed in the format 'MM/DD/YYYY', this may also assigned in name of 'Filing' or 'Filing Time' or 'E-Filed'",
+      "type": "string"
+    },
+    "Filing_Number": {
+      "description": "This is a unique identifier assigned to the specific filing. It helps in tracking and referencing this particular document within the court’s electronic filing system. this may also assigned in name of 'Filing#' and this is located either on top or bottom of the document",
+      "type": "string"
+    },
+    "Filing_Time": {
+      "description": " The time when the document is filed is stated as filing time. This os located near filing and filing date either in top or bottom of the document."
+    },
+    "Letter_Summary": {
+      "description": "Understand the document and provide summary of the document content in 200 words or less. Do not respond with document content.",
+      "type": "string"
+    },
+       "Document_Title": {
+      "description": "Extract and display the document title as is. Characters are usually bold, uppercase and underlined.",
+      "type": "string"
+    },
+    "Plaintiff": {
+      "description": "Name of the Plaintiff and the address of the plaintiff which is written above the plaintiff in the document",
+      "type": "string"
+    },
+    "Defendant": {
+      "description": "Name of the Defendant and the address of the defendant which is written above the defendant in the document",
+      "type": "string"
+    },
+    "Case_Number": {
+      "description": "The case number is the unique case number which contains both numbers and alphabets and special characters like '-','(',')' and would be written in top right corner of the document, this may also assigned in name of 'Case Number' or simply 'Case#'",
+      "type": "string"
+    },
+    "Filing_Date": {
+      "description": " Filing provides metadata about a legal document submitted to a court's electronic filing system. It represents the date the document was filed in the format 'MM/DD/YYYY', this may also assigned in name of 'Filing' or 'Filing Time' or 'E-Filed'",
+      "type": "string"
+    },
+    "Filing_Number": {
+      "description": "This is a unique identifier assigned to the specific filing. It helps in tracking and referencing this particular document within the court’s electronic filing system. this may also assigned in name of 'Filing#' and this is located either on top or bottom of the document",
+      "type": "string"
+    },
+    "Filing_Time": {
+      "description": " The time when the document is filed is stated as filing time. This os located near filing and filing date either in top or bottom of the document."
+    },
+    "Letter_Summary": {
+      "description": "Understand the document and provide summary of the document content in 200 words or less. Do not respond with document content.",
+      "type": "string"
+    },
+       "Document_Title": {
+      "description": "Extract and display the document title as is. Characters are usually bold, uppercase and underlined.",
+      "type": "string"
+    },
+    "Plaintiff": {
+      "description": "Name of the Plaintiff and the address of the plaintiff which is written above the plaintiff in the document",
+      "type": "string"
+    },
+    "Defendant": {
+      "description": "Name of the Defendant and the address of the defendant which is written above the defendant in the document",
+      "type": "string"
+    },
+    "Case_Number": {
+      "description": "The case number is the unique case number which contains both numbers and alphabets and special characters like '-','(',')' and would be written in top right corner of the document, this may also assigned in name of 'Case Number' or simply 'Case#'",
+      "type": "string"
+    },
+    "Filing_Date": {
+      "description": " Filing provides metadata about a legal document submitted to a court's electronic filing system. It represents the date the document was filed in the format 'MM/DD/YYYY', this may also assigned in name of 'Filing' or 'Filing Time' or 'E-Filed'",
+      "type": "string"
+    },
+    "Filing_Number": {
+      "description": "This is a unique identifier assigned to the specific filing. It helps in tracking and referencing this particular document within the court’s electronic filing system. this may also assigned in name of 'Filing#' and this is located either on top or bottom of the document",
+      "type": "string"
+    },
+    "Filing_Time": {
+      "description": " The time when the document is filed is stated as filing time. This os located near filing and filing date either in top or bottom of the document."
+    },
+    "Letter_Summary": {
+      "description": "Understand the document and provide summary of the document content in 200 words or less. Do not respond with document content.",
+      "type": "string"
+    },
+       "Document_Title": {
+      "description": "Extract and display the document title as is. Characters are usually bold, uppercase and underlined.",
+      "type": "string"
+    },
+    "Plaintiff": {
+      "description": "Name of the Plaintiff and the address of the plaintiff which is written above the plaintiff in the document",
+      "type": "string"
+    },
+    "Defendant": {
+      "description": "Name of the Defendant and the address of the defendant which is written above the defendant in the document",
+      "type": "string"
+    },
+    "Case_Number": {
+      "description": "The case number is the unique case number which contains both numbers and alphabets and special characters like '-','(',')' and would be written in top right corner of the document, this may also assigned in name of 'Case Number' or simply 'Case#'",
+      "type": "string"
+    },
+    "Filing_Date": {
+      "description": " Filing provides metadata about a legal document submitted to a court's electronic filing system. It represents the date the document was filed in the format 'MM/DD/YYYY', this may also assigned in name of 'Filing' or 'Filing Time' or 'E-Filed'",
+      "type": "string"
+    },
+    "Filing_Number": {
+      "description": "This is a unique identifier assigned to the specific filing. It helps in tracking and referencing this particular document within the court’s electronic filing system. this may also assigned in name of 'Filing#' and this is located either on top or bottom of the document",
+      "type": "string"
+    },
+    "Filing_Time": {
+      "description": " The time when the document is filed is stated as filing time. This os located near filing and filing date either in top or bottom of the document."
+    },
+    "Letter_Summary": {
+      "description": "Understand the document and provide summary of the document content in 200 words or less. Do not respond with document content.",
+      "type": "string"
+    },
+  
+  "required": [
+    "Document_Title",
+    "Plaintiff",
+    "Defendant",
+    "Case_Number",
+    "Filing_Date",
+    "Filing_Number",
+    "Filing_Time"
+  ]
+}</arg>
+<status status="FAIL" start="2025-02-20T10:32:07.756835" elapsed="77.357000">StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.197); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FACB02F5+28725]
+	(No symbol) [0x00007FF6FAC12AE0]
+	(No symbol) [0x00007FF6FAAA510A]
+	(No symbol) [0x00007FF6FAAABD70]
+	(No symbol) [0x00007FF6FAAAEABC]
+	(No symbol) [0x00007FF6FAAAEB8F]
+	(No symbol) [0x00007FF6FAAFB4A4]
+	(No symbol) [0x00007FF6FAAFA499]
+	(No symbol) [0x00007FF6FAAEC6B4]
+	(No symbol) [0x00007FF6FAB1FFAA]
+	(No symbol) [0x00007FF6FAAEBF86]
+	(No symbol) [0x00007FF6FAB201C0]
+	(No symbol) [0x00007FF6FAB40181]
+	(No symbol) [0x00007FF6FAB1FD53]
+	(No symbol) [0x00007FF6FAAEA0E3]
+	(No symbol) [0x00007FF6FAAEB471]
+	GetHandleVerifier [0x00007FF6FAFDF30D+3366989]
+	GetHandleVerifier [0x00007FF6FAFF12F0+3440688]
+	GetHandleVerifier [0x00007FF6FAFE78FD+3401277]
+	GetHandleVerifier [0x00007FF6FAD7AAAB+858091]
+	(No symbol) [0x00007FF6FAC1E74F]
+	(No symbol) [0x00007FF6FAC1A304]
+	(No symbol) [0x00007FF6FAC1A49D]
+	(No symbol) [0x00007FF6FAC08B69]
+	BaseThreadInitThunk [0x00007FFF3EFAE8D7+23]
+	RtlUserThreadStart [0x00007FFF3FF1BF2C+44]
+</status>
+</kw>
+<status status="FAIL" start="2025-02-20T10:32:07.756835" elapsed="77.363354">StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.197); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FACB02F5+28725]
+	(No symbol) [0x00007FF6FAC12AE0]
+	(No symbol) [0x00007FF6FAAA510A]
+	(No symbol) [0x00007FF6FAAABD70]
+	(No symbol) [0x00007FF6FAAAEABC]
+	(No symbol) [0x00007FF6FAAAEB8F]
+	(No symbol) [0x00007FF6FAAFB4A4]
+	(No symbol) [0x00007FF6FAAFA499]
+	(No symbol) [0x00007FF6FAAEC6B4]
+	(No symbol) [0x00007FF6FAB1FFAA]
+	(No symbol) [0x00007FF6FAAEBF86]
+	(No symbol) [0x00007FF6FAB201C0]
+	(No symbol) [0x00007FF6FAB40181]
+	(No symbol) [0x00007FF6FAB1FD53]
+	(No symbol) [0x00007FF6FAAEA0E3]
+	(No symbol) [0x00007FF6FAAEB471]
+	GetHandleVerifier [0x00007FF6FAFDF30D+3366989]
+	GetHandleVerifier [0x00007FF6FAFF12F0+3440688]
+	GetHandleVerifier [0x00007FF6FAFE78FD+3401277]
+	GetHandleVerifier [0x00007FF6FAD7AAAB+858091]
+	(No symbol) [0x00007FF6FAC1E74F]
+	(No symbol) [0x00007FF6FAC1A304]
+	(No symbol) [0x00007FF6FAC1A49D]
+	(No symbol) [0x00007FF6FAC08B69]
+	BaseThreadInitThunk [0x00007FFF3EFAE8D7+23]
+	RtlUserThreadStart [0x00007FFF3FF1BF2C+44]
+</status>
+</test>
+<status status="FAIL" start="2025-02-20T10:32:05.633243" elapsed="79.488229"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="KW WorkbenchRunner">KW WorkbenchRunner</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
